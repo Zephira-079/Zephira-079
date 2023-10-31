@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zephira</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        *::-webkit-scrollbar {
+            display: none;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img[data-bloodstain] {
+            position: absolute;
+            display: block;
+
+            height: 10vh;
+            width: 10vw;
+            scale: 10;
+
+            object-fit: cover;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <img data-bloodstain src="./assets/image/bloodstain.png" alt="">
+    <script>
+        const audio = new Audio("./assets/audio/SCP 096 Scream.mp3")
+        const playAudioInterval = setInterval(() => {
+            audio.play()
+                .then(() => {
+                    clearInterval(playAudioInterval)
+                })
+                .catch(error => {
+                    console.info('User has not interacted with document yet.')
+                })
+        }, 1000)
+
+        const bloodStain =  document.querySelector("[data-bloodstain]")
+        setInterval(() => {
+            document.body.style.background =  `rgba(0, 0, 0,${0.7 + Math.random() * 0.3})`
+            bloodStain.style.opacity = Math.random() * 1
+            bloodStain.style.transform = `rotate(${(Math.random() * 8) - 4}deg)`
+        }, 100)
+
+        audio.addEventListener("ended", () => {
+            // location.replace("./readMe.md")
+            close()
+            // for(;;){}
+        })
+    </script>
+</body>
+</html>
