@@ -2,22 +2,22 @@
 <h1 align="center"><font face="cursive">Hi, I'm Zephira! ~ 💕</font></h1>
 <center>
 <!-- <h3 align="center"><font face="cursive">"Aspiring to Master [REDACTED](link) and Perfecting the Art of Procrastination Since 2019" 💻✨</font></h3> -->
-<h3 align="center"><font face="cursive">"Aspiring to Master <a href="./redacted.html">[REDACTED]</a> and Perfecting the Art of Procrastination Since 2019" 💻✨</font></h3>
+<h3 align="center"><font face="cursive">"Aspiring to Master [REDACTED] and Perfecting the Art of Discovering New Since 2020" 💻✨</font></h3>
 
 
 ```javascript
 Name: "Zephira".pseudonym()
 ```
 ```javascript
-Age: [[+!+[]]+[+[]]-[+!+[]+!+[]+!+[]],Number(true),!false].reverse().splice(1,3).join("")
+Age: `MTE0NDU4ODgwMDAwMA==`
 ```
 ```javascript
 Loves: |Everything That Interest Me| "♡⸜(˃ ᵕ ˂ )⸝"
 ```
 ```java
-Hobbys: "( • ᴖ • ｡) idk"
+Hobbys: "( • ᴖ • ｡) Discover Something"
 ```
 ### Languages And Tools: 
-| Javascript | Python |
-|-|-|
-| Procrastinate Since 2019 |Procrastinate Since 2022 |
+| Javascript | PHP | C# | Python |
+|-|-|-|-|
+| Discovered Since 2020 | Partially Knows Since 2021 | Partially Knows Since 2022 | Discovered Since 2023 | 
